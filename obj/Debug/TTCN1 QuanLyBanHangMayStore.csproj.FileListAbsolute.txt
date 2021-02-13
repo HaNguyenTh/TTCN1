@@ -1,0 +1,22 @@
+D:\New folder\TTCN1 QuanLyBanHangMayStore\bin\Debug\TTCN1 QuanLyBanHangMayStore.exe.config
+D:\New folder\TTCN1 QuanLyBanHangMayStore\bin\Debug\TTCN1 QuanLyBanHangMayStore.exe
+D:\New folder\TTCN1 QuanLyBanHangMayStore\bin\Debug\TTCN1 QuanLyBanHangMayStore.pdb
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1 QuanLyBanHangMayStore.csprojAssemblyReference.cache
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmNV.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.frmMain.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Properties.Resources.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1 QuanLyBanHangMayStore.csproj.GenerateResource.cache
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1 QuanLyBanHangMayStore.exe
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1 QuanLyBanHangMayStore.pdb
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1 QuanLyBanHangMayStore.csproj.CoreCompileInputs.cache
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmNCC.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmKH.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmLSP.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmSP.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmTKSP.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmTKKH.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmHDBH.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmTKHDBH.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmTKPNH.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmBC.resources
+D:\New folder\TTCN1 QuanLyBanHangMayStore\obj\Debug\TTCN1_QuanLyBanHangMayStore.Forms.FrmPNH.resources

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{057A43B2-4E43-4249-8B79-D2F4BBBAEB48}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TTCN1_QuanLyBanHangMayStore</RootNamespace>
+    <AssemblyName>TTCN1 QuanLyBanHangMayStore</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FrmBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmBC.Designer.cs">
+      <DependentUpon>FrmBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmKH.Designer.cs">
+      <DependentUpon>FrmKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTKHDBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTKHDBH.Designer.cs">
+      <DependentUpon>FrmTKHDBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTKKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTKKH.Designer.cs">
+      <DependentUpon>FrmTKKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmHDBH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmHDBH.Designer.cs">
+      <DependentUpon>FrmHDBH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmLSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmLSP.Designer.cs">
+      <DependentUpon>FrmLSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmNCC.Designer.cs">
+      <DependentUpon>FrmNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmNV.Designer.cs">
+      <DependentUpon>FrmNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmPNH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmPNH.Designer.cs">
+      <DependentUpon>FrmPNH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmSP.Designer.cs">
+      <DependentUpon>FrmSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTKPNH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTKPNH.Designer.cs">
+      <DependentUpon>FrmTKPNH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTKSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTKSP.Designer.cs">
+      <DependentUpon>FrmTKSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThucThiSql.cs" />
+    <EmbeddedResource Include="Forms\FrmBC.resx">
+      <DependentUpon>FrmBC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmHDBH.resx">
+      <DependentUpon>FrmHDBH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmKH.resx">
+      <DependentUpon>FrmKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmLSP.resx">
+      <DependentUpon>FrmLSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmNCC.resx">
+      <DependentUpon>FrmNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmNV.resx">
+      <DependentUpon>FrmNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmPNH.resx">
+      <DependentUpon>FrmPNH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmSP.resx">
+      <DependentUpon>FrmSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTKHDBH.resx">
+      <DependentUpon>FrmTKHDBH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTKKH.resx">
+      <DependentUpon>FrmTKKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTKPNH.resx">
+      <DependentUpon>FrmTKPNH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTKSP.resx">
+      <DependentUpon>FrmTKSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
